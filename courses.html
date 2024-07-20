@@ -10,66 +10,40 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css" integrity="sha512-MqL4+Io386IOPMKKyplKII0pVW5e+kb+PI/I3N87G3fHIfrgNNsRpzIXEi+0MQC0sR9xZNqZqCYVcC61fL5+Vg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
-        <nav class="nav container generic">
+        <nav class="nav">
             <a href="#" class="nav__logo">
-                <!-- <img src="./assets/img/main-logo.png"/> -->
-                 RUBYGLOW
+                <img src="./assets/img/main-logo.png"/>
             </a>
-            <ul class="nav__list">
-                <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">About</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">Courses</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">Contact </a></li>
+            <ul class="nav__list" id="nav-list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="courses.html" class="nav__link">Courses</a></li>
+                <!-- <li class="nav__item"><a href="gallery.html" class="nav__link">Gallery</a></li> -->
+                <li class="nav__item"><a href="contact.html" class="nav__link">Contact </a></li>
             </ul>
+            <div class="nav__toggle" id="toggler">
+                <i class="ri-menu-3-fill"></i>
+            </div>
         </nav>
-        <main id="courses__page">
+        <main id="course__page">
             <section class="generic__header section">
-                <div class="container">
+                <div class="container about__container">
                     <div class="about__img">
-                        <img />
+                        <img src="./assets/img/main-img.jpg"/>
                     </div>
                     <div class="about__data">
-    
+                        <div>
+                            <h1>Dive into our courses</h1>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non voluptate, ut labore obcaecati nisi explicabo quia earum fuga, libero, officia numquam quas odit animi deserunt.</p>
+                        </div>
                     </div>
                 </div>
                 
             </section>
-            <!-- <section class="home section" id="home">
-                <div class="home__bg">
-                    <div class="bg-bar-1"></div>
-                    <div class="bg-bar-2"></div>
-                </div>
-                <div class="home__data">
-                    <div class="container home__container">
-                        <div>
-                            <h4>Makeover trainings</h4>
-                            <h1>RubyGlow</h1>
-                        </div>
-                        
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quas vel optio porro maiores alias officia perferendis inventore vitae quae.</p>
-                        <a href="#" class="btn btn-spcl"><span></span>Enroll Now</a>
-                    </div>
-                </div>
-            </section> -->
-            <!-- <section class="section about" id="about">
-                <div class="container about__container">
-                    <div class="section__title">About Us</div>
-                </div>
-            </section> -->
-            <!-- <section class="hero section" id="hero">
-                <div class="hero__container container grid">
-                    <div class="hero__data">
-                        <span>New Collection</span>
-                        <h1>Lorem ipsum <font>dolor sit amet consectetur</font> adipisicing elit. Illo, sed?</h1>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores mollitia officia officiis ullam tenetur error saepe nisi, placeat cumque suscipit dicta nobis, repellat distinctio id.</p>
-                        <a href="#">Enroll Now</a>
-                    </div>
-                    <div class="hero__img">
-                        <img src="./assets/img/hero-img.png"/>
-                    </div>
-                </div>
-            </section> -->
-            <section class="section" id="experience">
+            
+
+
+            <!-- <section class="section" id="experience">
                 <div class="grid container exp__container">
                     
                     <div class="exp__img">
@@ -81,139 +55,145 @@
                         <p class="section__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis aspernatur commodi rem, obcaecati ut neque! Qui saepe iusto nisi aperiam consectetur exercitationem tempora sapiente quod officiis quibusdam at non vel distinctio quidem molestiae possimus repudiandae placeat, dolorum architecto veniam, libero sint. Repudiandae debitis delectus sapiente voluptatem cumque aliquid modi repellendus.</p>
                         <a href="#" class="btn btn-spcl"><span></span>Contact Us</a>
                     </div>
-                    <!-- <div class="exp__cards grid">
-                        <div class="exp__card__item">
-                            <h3>Lorem Ipsum</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quibusdam vero exercitationem ex, quod quae.</p>
-                            <a href="#" class="btn btn-spcl"><span></span> Enquire now</a>
-                            <img src="./assets/img/exp-img-1.png" />
-                        </div>
-                        <div class="exp__card__item">
-                            <h3>Lorem Ipsum</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quibusdam vero exercitationem ex, quod quae.</p>
-                            <a href="#" class="btn btn-spcl"><span></span> Enquire now</a>
-                            <img src="./assets/img/exp-img-1.png" />
-
-                        </div>
-                    </div> -->
+                    
                 </div>
+                
+            </section> -->
+            <section class="section mentor__section" id="mentor">
+                <div class="container">
+                    
+                    <div class="lead-text">Connect with us today to explore our exclusive, expert-led courses and personalized, hands-on training. Let's elevate your craft together – seize this opportunity now!</div>
+                    <a href="contact.html" class="btn btn-spcl btn-long"><span></span>Contact Us</a>
+                </div>
+                
                 
             </section>
 
-            <section class="section" id="brands">
-                <div class="container brand__container">
-                    <img src="./assets/img/brand-img-1.webp"/>
-                    <img src="./assets/img/brand-img-2.png"/>
-                    <img src="./assets/img/brand-img-3.png"/>
-                    <img src="./assets/img/brand-img-4.png"/>
-                </div>
-            </section>
-
-            <section class="section" id="mentors">
-                <div class="section__data">
-                    <h1 class="section__title">Meet <span>Our Mentors</span></h1>
-                <p class="section__desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro in consequuntur est illum asperiores sit.</p>
-                </div>
-                
-
-                <div class="mentor__container">
-                    <div class="mentor__item">
-                        <div class="mentor__item-wrapper">
-                            <img src="./assets/img/mentor-1.jpg"/>
-                            <div class="mentor-overlay"></div>
-                            <div class="mentor__item-sub">
-                                <div class="mentor__desc">
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat qui soluta minus consequatur accusantium cum quasi doloremque ipsum eos iusto!
-                                </div>
-                                <div class="mentor__name">Mentor Name #1</div>
-
+            <section class="section training__section">
+                <div class="container training__container">
+                    <div class="training__item">
+                        <div class="training__img">
+                            <img src="./assets/img/mentor-1.jpeg" />
+                            <img src="./assets/img/mentor-2.jpeg" />
+                        </div>
+                        <div class="training__content">
+                            <div>
+                                <p class="training__header-sub">Recommended</p>
+                                <h1 class="training__title">Nail Acrylic Extension Training</h1>
+                                <p class="training__desc">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, facere magnam modi magni quaerat sint velit et enim veritatis aliquam!
+                                </p>
+                                
                             </div>
                         </div>
                     </div>
-                    <div class="img__divider"></div>
-                    <div class="mentor__item">
-                        <div class="mentor__item-wrapper">
-                            <img src="./assets/img/mentor-2.jpg"/>
-                            <div class="mentor-overlay"></div>
-                            <div class="mentor__item-sub">
-                                <div class="mentor__desc">
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat qui soluta minus consequatur accusantium cum quasi doloremque ipsum eos iusto!
-                                </div>
-                                <div class="mentor__name">Mentor Name #2</div>
-
+                    <div class="training__item">
+                        
+                        <div class="training__content">
+                            <div>
+                                <p class="training__header-sub">Recommended</p>
+                                <h1 class="training__title">Full Eyelashes Extension</h1>
+                                <p class="training__desc">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, facere magnam modi magni quaerat sint velit et enim veritatis aliquam!
+                                </p>
+                                
+                            </div>
+                        </div>
+                        <div class="training__img flipped">
+                            <img src="./assets/img/mentor-1.jpeg" />
+                            <img src="./assets/img/mentor-2.jpeg" />
+                        </div>
+                    </div>
+                    <div class="training__item">
+                        <div class="training__img">
+                            <img src="./assets/img/mentor-1.jpeg" />
+                            <img src="./assets/img/mentor-2.jpeg" />
+                        </div>
+                        <div class="training__content">
+                            <div>
+                                <p class="training__header-sub">Recommended</p>
+                                <h1 class="training__title">Micro sharing Micro blading</h1>
+                                <p class="training__desc">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, facere magnam modi magni quaerat sint velit et enim veritatis aliquam!
+                                </p>
+                                
                             </div>
                         </div>
                     </div>
-                    <div class="img__divider"></div>
-
-                    <div class="mentor__item">
-                        <div class="mentor__item-wrapper">
-                            <img src="./assets/img/mentor-3.jpg"/>
-                            <div class="mentor-overlay"></div>
-                            <div class="mentor__item-sub">
-                                <div class="mentor__desc">
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat qui soluta minus consequatur accusantium cum quasi doloremque ipsum eos iusto!
-                                </div>
-                                <div class="mentor__name">Mentor Name #3</div>
-
+                    <div class="training__item">
+                        
+                        <div class="training__content">
+                            <div>
+                                <p class="training__header-sub">Recommended</p>
+                                <h1 class="training__title">Lip colour, contour and liner training</h1>
+                                <p class="training__desc">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, facere magnam modi magni quaerat sint velit et enim veritatis aliquam!
+                                </p>
+                                
                             </div>
                         </div>
-                    </div>
-                    <div class="img__divider"></div>
-
-                    <div class="mentor__item">
-                        <div class="mentor__item-wrapper">
-                            <img src="./assets/img/mentor-4.jpg"/>
-                            <div class="mentor-overlay"></div>
-                            <div class="mentor__item-sub">
-                                <div class="mentor__desc">
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat qui soluta minus consequatur accusantium cum quasi doloremque ipsum eos iusto!
-                                </div>
-                                <div class="mentor__name">Mentor Name #4</div>
-
-                            </div>
+                        <div class="training__img flipped">
+                            <img src="./assets/img/mentor-1.jpeg" />
+                            <img src="./assets/img/mentor-2.jpeg" />
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="hero section" id="hero">
-                <div class="hero__container container grid">
-                    <div class="hero__data">
-                        <span>New Collection</span>
-                        <h1>Lorem ipsum <font>dolor sit amet consectetur</font> adipisicing elit. Illo, sed?</h1>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores mollitia officia officiis ullam tenetur error saepe nisi, placeat cumque suscipit dicta nobis, repellat distinctio id.</p>
-                        <form action="" class="contact__form">
-                            <div class="contact__fields">
-                                
-                                <div class="contact__content">
-                                    <input type="text" class="contact__item" placeholder=" "/>
-                                    <label for="" class="contact__label">Full Name</label>
-                                </div>
-                                
-                                <div class="contact__content">
-                                    <input type="email" class="contact__item" placeholder=" "/>
-                                    <label for="" class="contact__label">Email</label>
-                                </div>
-                                <div class="contact__content">
-                                    <input type="text" class="contact__item" placeholder=" "/>
-                                    <label for="" class="contact__label">Contact No.</label>
-                                </div>
-                                
-                                
-                                
-                                <div class="contact__content contact__area">
-                                    <textarea name="message" class="contact__item" placeholder=" "></textarea>
-                                    <label for="" class="contact__label">Message</label>
-                                </div>
+
+            <!-- <section class="section course-section">
+                <div class="container">
+                    <div class="training-list">
+                        <div class="training-item">
+                            <div class="course-img">
+                                <img src="./assets/img/mentor-1.jpeg" />
                             </div>
-                            <button class="btn btn-spcl"><span></span>Enquire</button>
-                        </form>
-                    </div>
-                    <div class="hero__img">
-                        <img src="./assets/img/hero-img.png"/>
+                            <div class="course-data">
+                                <h1>Nail Acrylic Extension Training</h1>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam ut numquam eaque at perspiciatis explicabo!</p>
+                            </div>
+                        </div>
+                        <div class="training-item flipped">
+                            <div class="course-img">
+                                <img src="./assets/img/mentor-1.jpeg" />
+                            </div>
+                            <div class="course-data">
+                                <h1>Full Eyelashes Extension</h1>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam ut numquam eaque at perspiciatis explicabo!</p>
+                            </div>
+                        </div>
+                        <div class="training-item">
+                            <div class="course-img">
+                                <img src="./assets/img/mentor-1.jpeg" />
+                            </div>
+                            <div class="course-data">
+                                <h1>Micro sharing micro blading</h1>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam ut numquam eaque at perspiciatis explicabo!</p>
+                            </div>
+                        </div>
+                        <div class="training-item flipped">
+                            <div class="course-img">
+                                <img src="./assets/img/mentor-1.jpeg" />
+                            </div>
+                            <div class="course-data">
+                                <h1>Lip colour, contour and liner training</h1>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam ut numquam eaque at perspiciatis explicabo!</p>
+                            </div>
+                        </div>
+                        <div class="training-item">
+                            <div class="course-img">
+                                <img src="./assets/img/mentor-1.jpeg" />
+                            </div>
+                            <div class="course-data">
+                                <h1>Waxing, Facial, Manicure, Pedicure, cleanup, eyebrows training</h1>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam ut numquam eaque at perspiciatis explicabo!</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
+
+            
+          
 
         </main>
         <footer>

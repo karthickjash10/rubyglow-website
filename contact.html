@@ -10,24 +10,26 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css" integrity="sha512-MqL4+Io386IOPMKKyplKII0pVW5e+kb+PI/I3N87G3fHIfrgNNsRpzIXEi+0MQC0sR9xZNqZqCYVcC61fL5+Vg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
-        <nav class="nav container generic">
+        <nav class="nav">
             <a href="#" class="nav__logo">
                 <img src="./assets/img/main-logo.png"/>
-                
             </a>
-            <ul class="nav__list">
+            <ul class="nav__list" id="nav-list">
                 <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
                 <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
                 <li class="nav__item"><a href="courses.html" class="nav__link">Courses</a></li>
-                <li class="nav__item"><a href="gallery.html" class="nav__link">Gallery</a></li>
+                <!-- <li class="nav__item"><a href="gallery.html" class="nav__link">Gallery</a></li> -->
                 <li class="nav__item"><a href="contact.html" class="nav__link">Contact </a></li>
             </ul>
+            <div class="nav__toggle" id="toggler">
+                <i class="ri-menu-3-fill"></i>
+            </div>
         </nav>
         <main id="contact__page">
             <section class="generic__header section">
                 <div class="container about__container">
                     <div class="about__img">
-                        <img src="./assets/img/main-img.jpg"/>
+                        <img src="./assets/img/contact-img.jpeg"/>
                     </div>
                     <div class="about__data">
                         <div>
@@ -42,27 +44,24 @@
             <section class="section contact__section" id="contact">
                 <div class="container">
                     <div class="contact__container">
-                        <div class="contact__cont_2">
-                            <div>
-                                <i class="ri-map-pin-2-fill"></i>
-                                <h3>Gurjudhara, Kathmandu, Nepal,<br/> High Vision Colony, Thankot, Chandragir</h3>
-                            </div>
-                            <div>
-                                <i class="ri-mail-fill"></i>
-                                <h3>enquire@rubyglowtraining.com</h3>
-                            </div>
+                        
+                        <div class="contact-itm">
+                            <i class="ri-map-pin-2-fill"></i>
+                            <h3>VISIT US</h3>
+                            <p>Gurjudhara, Kathmandu, Nepal,<br/> High Vision Colony, Thankot, Chandragir</p>
+                        </div>
+                        <div class="contact-itm">
+                            <i class="ri-mail-fill"></i>
+                            <h3>MAIL US</h3>
+                            <p>enquire@rubyglowtraining.com</p>
+                        </div>  
+                        <div class="contact-itm">
+                            <i class="ri-phone-fill"></i>
+                            <h3>CALL US</h3>
+                            <p>+977 98690 01788</p>
+                        </div>
                             
-                        </div>
-                        <div class="contact__cont_2">
-                            <div>
-                                <i class="ri-phone-fill"></i>
-                                <h3>+977 98690 01788</h3>
-                            </div>
-                            <div>
-                                <i class="ri-whatsapp-fill"></i>
-                                <h3>+977 98690 01788</h3>
-                            </div>
-                        </div>
+                        
                     </div>
                     
                     
@@ -172,5 +171,6 @@
                 &copy; Rubyglow Training. All Rights Reserved.
             </div>
         </footer>
+        <script src="./assets/js/main.js"></script>
     </body>
 </html>

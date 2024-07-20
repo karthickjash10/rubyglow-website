@@ -10,24 +10,26 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css" integrity="sha512-MqL4+Io386IOPMKKyplKII0pVW5e+kb+PI/I3N87G3fHIfrgNNsRpzIXEi+0MQC0sR9xZNqZqCYVcC61fL5+Vg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
-        <nav class="nav container generic">
+        <nav class="nav">
             <a href="#" class="nav__logo">
                 <img src="./assets/img/main-logo.png"/>
-                
             </a>
-            <ul class="nav__list">
+            <ul class="nav__list" id="nav-list">
                 <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
                 <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
                 <li class="nav__item"><a href="courses.html" class="nav__link">Courses</a></li>
-                <li class="nav__item"><a href="gallery.html" class="nav__link">Gallery</a></li>
+                <!-- <li class="nav__item"><a href="gallery.html" class="nav__link">Gallery</a></li> -->
                 <li class="nav__item"><a href="contact.html" class="nav__link">Contact </a></li>
             </ul>
+            <div class="nav__toggle" id="toggler">
+                <i class="ri-menu-3-fill"></i>
+            </div>
         </nav>
         <main id="about__page">
             <section class="generic__header section">
                 <div class="container about__container">
                     <div class="about__img">
-                        <img src="./assets/img/main-img.jpg"/>
+                        <img src="./assets/img/about-page.jpeg"/>
                     </div>
                     <div class="about__data">
                         <div>
@@ -66,7 +68,7 @@
     
                     </div>
                     <div class="lead-text">Connect with us today to explore our exclusive, expert-led courses and personalized, hands-on training. Let's elevate your craft together – seize this opportunity now!</div>
-                    <a href="#" class="btn btn-spcl btn-long"><span></span>Contact Us</a>
+                    <a href="contact.html" class="btn btn-spcl btn-long"><span></span>Contact Us</a>
                 </div>
                 
                 
@@ -110,7 +112,7 @@
 
                             <h1 class="section__title"> Why<br/><span>Rubyglow?</span></h1>
                             <p class="section__desc">With 14 years of proven excellence in hair styling, Rubyglow offer unmatched expertise backed by a legacy of innovation and trendsetting. Our global network ensures you receive world-class training from industry leaders. Join us to elevate your skills and become part of a prestigious tradition in hairstyling excellence.</p>
-                            <a href="#" class="btn btn-spcl"><span></span>Courses</a>
+                            <a href="courses.html" class="btn btn-spcl"><span></span>Courses</a>
                         </div>
                     </div>
                     
@@ -178,5 +180,6 @@
                 &copy; Rubyglow Training. All Rights Reserved.
             </div>
         </footer>
+        <script src="./assets/js/main.js"></script>
     </body>
 </html>
